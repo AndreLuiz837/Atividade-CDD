@@ -6,6 +6,6 @@ if tipo == "G" or tipo == "E" or tipo == "g" or tipo == "e":
         valor = litros * 5.80
     else:
         valor = litros * 4.90
-    print(f"O valor a pagar sera {valor}.")
+    print(f"O valor a pagar sera {valor},.2f .")
 else:
     print(f"O tipo de combustivel é invalido.")
