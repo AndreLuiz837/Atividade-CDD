@@ -1,4 +1,4 @@
-tipo = input(f"Qual o tipo do combustivel ('G' para gasolina e 'E' para etanol):")
+tipo = str(input(f"Qual o tipo do combustivel ('G' para gasolina e 'E' para etanol):")
 litros = float(input(f"Diga a quantidade de litros:"))
 
 if tipo == "G" or tipo == "E" or tipo == "g" or tipo == "e":
